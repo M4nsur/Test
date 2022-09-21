@@ -1,0 +1,247 @@
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: var(--red);
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+button {
+  background: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.mainWrapper {
+  padding: 0 20px;
+}
+
+.cityWrapper {
+  display: flex;
+  width: 79px;
+  justify-content: space-between;
+}
+
+.cityName {
+  font-size: 14px;
+}
+
+.emailInfo {
+  color: black;
+  font-size: 14px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menuElement {
+  font-size: 14px;
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.socialWrapper {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.numberWrapper {
+  display: flex;
+}
+.number {
+  font-size: 14px;
+  font-weight: bold;
+}
+.arrowDown {
+  margin-top: -3px;
+}
+
+.subHeader {
+  display: flex;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.rightSideSubHeader {
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger {
+  vertical-align: middle;
+  margin-right: 5px;
+  height: 65%;
+}
+
+.logo {
+  vertical-align: middle;
+  height: 65%;
+}
+
+.textInfo {
+  width: 200px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSideSubHeader {
+  justify-content: space-between;
+  display: flex;
+  width: 180px;
+}
+
+.leftSideBtn {
+  display: block;
+}
+
+.asideMenuElement {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.asideInfo {
+  margin-top: 35px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.contentFlex {
+  width: 1180px;
+}
+
+.slider {
+  margin-top: 60px;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: var(--red);
+  width: 1180px;
+  height: 380px;
+}
+
+.modelInfo {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.oldPrice {
+  font-size: 25px;
+  text-decoration: line-through;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.currectPrice {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.buy {
+  padding: 7px;
+  color: white;
+  border: white solid 1px;
+  border-radius: 15px;
+}
+
+.boatImg {
+  margin: -255px 190px 0;
+  height: 380px;
+}
+
+.person {
+  position: absolute;
+  margin: -390px 690px;
+}
+
+.calc {
+  margin: 60px 50px;
+}
+
+.cartsWrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart_img {
+  display: flex;
+  align-items: flex-end;
+  z-index: 0;
+}
+
+.cart_img img {
+    position: relative;
+}
+
+.cart1 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgb(221, 214, 214);
+  display: flex;
+  padding: 12px 0 0 15px;
+  width: 280px;
+  font-size: 14px;
+}
+
+.cartText {
+    font-size: 13px;
+}
+
+.cartYellow {
+  background-color: rgb(228, 200, 40);
+}
+
+.cartBlue {
+    background-color: rgb(40, 170, 245)
+}
+
+.cartBlue h3 {
+    color: white;
+}
+
+.cartGreen {
+    background-color: rgb(55, 182, 55);
+}
+
+.cartGreen h3 {
+    color: white;
+}
+
+
+
+:root {
+  --red: #c71035;
+}
